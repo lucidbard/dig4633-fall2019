@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/canihealarlab.unity
+    guid: e7aad67fbcaab714f8ec8e060ab3f855
   m_configObjects: {}
