@@ -1,4 +1,4 @@
-VR Lab: ar-lab
+AR Lab: canihealarlab
 
 For this lab I set up a prototype for an AR furniture app. 
 It is demonstrated using a sofa but if the app were completed it would offer a variety of different furniture the user could select. 
