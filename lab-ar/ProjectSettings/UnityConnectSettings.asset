@@ -4,7 +4,11 @@
 UnityConnectSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 1
+<<<<<<< HEAD
   m_Enabled: 0
+=======
+  m_Enabled: 1
+>>>>>>> fc814bbb13ea743d4412fa342df2981b5e75e637
   m_TestMode: 0
   m_EventOldUrl: https://api.uca.cloud.unity3d.com/v1/events
   m_EventUrl: https://cdp.cloud.unity3d.com/v1/events
