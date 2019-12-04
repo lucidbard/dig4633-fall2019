@@ -1,0 +1,4336 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Malimbe.FodyRunner.UnityIntegration.dll:
+    - Malimbe.FodyRunner.UnityIntegration.InspectorEditor
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    UnityEngine.SpatialTracking.dll:
+    - UnityEngine.SpatialTracking.TrackedPoseDriver
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
+    VRTK.Prefabs.Runtime.dll:
+    - VRTK.Prefabs.CameraRig.CameraRigSwitcher.XRSettingsConfigurator
+    - VRTK.Prefabs.CameraRig.SimulatedCameraRig.ActiveObjectController
+    - VRTK.Prefabs.CameraRig.SimulatedCameraRig.Input.MouseVector2DAction
+    - VRTK.Prefabs.CameraRig.SimulatedCameraRig.KeyBindingDisplay
+    - VRTK.Prefabs.CameraRig.SimulatedCameraRig.SimulatorConfigurator
+    - VRTK.Prefabs.CameraRig.SimulatedCameraRig.SimulatorFacade
+    - VRTK.Prefabs.CameraRig.SimulatedCameraRig.TransformPropertyResetter
+    - VRTK.Prefabs.CameraRig.TrackedAlias.TrackedAliasConfigurator
+    - VRTK.Prefabs.CameraRig.TrackedAlias.TrackedAliasFacade
+    - VRTK.Prefabs.CameraRig.UnityXRCameraRig.Input.UnityAxis1DAction
+    - VRTK.Prefabs.CameraRig.UnityXRCameraRig.Input.UnityButtonAction
+    - VRTK.Prefabs.CameraRig.UnityXRCameraRig.UnityXRConfigurator
+    - VRTK.Prefabs.Helpers.AxisRotator.AxisRotatorConfigurator
+    - VRTK.Prefabs.Helpers.AxisRotator.AxisRotatorFacade
+    - VRTK.Prefabs.Helpers.Tooltip.TooltipConfigurator
+    - VRTK.Prefabs.Helpers.Tooltip.TooltipFacade
+    - VRTK.Prefabs.Helpers.TrackedCollider.TrackedColliderConfigurator
+    - VRTK.Prefabs.Helpers.TrackedCollider.TrackedColliderFacade
+    - VRTK.Prefabs.Interactions.Controllables.ComponentTags.ControllableJointDriveContainerTag
+    - VRTK.Prefabs.Interactions.Controllables.DirectionalDriveFacade
+    - VRTK.Prefabs.Interactions.Controllables.DirectionalJointDrive
+    - VRTK.Prefabs.Interactions.Controllables.DirectionalTransformDrive
+    - VRTK.Prefabs.Interactions.Controllables.RotationalDriveFacade
+    - VRTK.Prefabs.Interactions.Controllables.RotationalJointDrive
+    - VRTK.Prefabs.Interactions.Controllables.RotationalTransformDrive
+    - VRTK.Prefabs.Interactions.Haptics.InteractorHapticsConfigurator
+    - VRTK.Prefabs.Interactions.Haptics.InteractorHapticsFacade
+    - VRTK.Prefabs.Interactions.InteractableSnapZone.ActivationValidator
+    - VRTK.Prefabs.Interactions.InteractableSnapZone.SnapZoneActivator
+    - VRTK.Prefabs.Interactions.InteractableSnapZone.SnapZoneConfigurator
+    - VRTK.Prefabs.Interactions.InteractableSnapZone.SnapZoneFacade
+    - VRTK.Prefabs.Interactions.Interactables.Climb.ClimbInteractableConfigurator
+    - VRTK.Prefabs.Interactions.Interactables.Climb.ClimbInteractableFacade
+    - VRTK.Prefabs.Interactions.Interactables.Grab.Action.GrabInteractableAction
+    - VRTK.Prefabs.Interactions.Interactables.Grab.Action.GrabInteractableControlDirectionAction
+    - VRTK.Prefabs.Interactions.Interactables.Grab.Action.GrabInteractableFollowAction
+    - VRTK.Prefabs.Interactions.Interactables.Grab.Action.GrabInteractableSwapAction
+    - VRTK.Prefabs.Interactions.Interactables.Grab.GrabInteractableConfigurator
+    - VRTK.Prefabs.Interactions.Interactables.Grab.InteractableGrabStateEmitter
+    - VRTK.Prefabs.Interactions.Interactables.Grab.InteractableGrabStateRegistrar
+    - VRTK.Prefabs.Interactions.Interactables.Grab.Provider.GrabInteractableListInteractorProvider
+    - VRTK.Prefabs.Interactions.Interactables.Grab.Provider.GrabInteractableStackInteractorProvider
+    - VRTK.Prefabs.Interactions.Interactables.Grab.Receiver.GrabInteractableReceiver
+    - VRTK.Prefabs.Interactions.Interactables.InteractableFacade
+    - VRTK.Prefabs.Interactions.Interactables.InteractableFacadeEventProxyEmitter
+    - VRTK.Prefabs.Interactions.Interactables.InteractableFacadeExtractor
+    - VRTK.Prefabs.Interactions.Interactables.InteractablePropertyCache
+    - VRTK.Prefabs.Interactions.Interactables.Touch.TouchInteractableConfigurator
+    - VRTK.Prefabs.Interactions.InteractorVisibilityModifier.InteractorVisibilityModifierFacade
+    - VRTK.Prefabs.Interactions.Interactors.ActionInteractorConfigurator
+    - VRTK.Prefabs.Interactions.Interactors.Collection.InteractorFacadeObservableList
+    - VRTK.Prefabs.Interactions.Interactors.ComponentTags.IgnoreInteractorCollisionTag
+    - VRTK.Prefabs.Interactions.Interactors.ComponentTags.StartActionTag
+    - VRTK.Prefabs.Interactions.Interactors.ComponentTags.StartGrabbingTag
+    - VRTK.Prefabs.Interactions.Interactors.ComponentTags.StartTouchingTag
+    - VRTK.Prefabs.Interactions.Interactors.ComponentTags.StopActionTag
+    - VRTK.Prefabs.Interactions.Interactors.ComponentTags.StopGrabbingTag
+    - VRTK.Prefabs.Interactions.Interactors.ComponentTags.StopTouchingTag
+    - VRTK.Prefabs.Interactions.Interactors.GrabInteractorConfigurator
+    - VRTK.Prefabs.Interactions.Interactors.InteractorExtractor
+    - VRTK.Prefabs.Interactions.Interactors.InteractorFacade
+    - VRTK.Prefabs.Interactions.Interactors.InteractorFacadeEventProxyEmitter
+    - VRTK.Prefabs.Interactions.Interactors.TouchInteractorConfigurator
+    - VRTK.Prefabs.Locomotion.BodyRepresentation.BodyRepresentationColliderTag
+    - VRTK.Prefabs.Locomotion.BodyRepresentation.BodyRepresentationFacade
+    - VRTK.Prefabs.Locomotion.BodyRepresentation.BodyRepresentationProcessor
+    - VRTK.Prefabs.Locomotion.DestinationLocations.ActionDispatcher
+    - VRTK.Prefabs.Locomotion.DestinationLocations.DestinationLocation
+    - VRTK.Prefabs.Locomotion.DestinationLocations.DestinationLocationConfigurator
+    - VRTK.Prefabs.Locomotion.DestinationLocations.DestinationLocationFacade
+    - VRTK.Prefabs.Locomotion.DestinationLocations.DestinationLocationLockedStateTag
+    - VRTK.Prefabs.Locomotion.Movement.AxesToVector3.AxesToVector3Facade
+    - VRTK.Prefabs.Locomotion.Movement.AxesToVector3.AxesToVector3Processor
+    - VRTK.Prefabs.Locomotion.Movement.AxesToVector3.Vector3Cache
+    - VRTK.Prefabs.Locomotion.Movement.Climb.ClimbFacade
+    - VRTK.Prefabs.Locomotion.Movement.Climb.ClimbVelocityApplier
+    - VRTK.Prefabs.Locomotion.Movement.MovementAmplifier.MovementAmplifierConfigurator
+    - VRTK.Prefabs.Locomotion.Movement.MovementAmplifier.MovementAmplifierFacade
+    - VRTK.Prefabs.Locomotion.Teleporters.TeleporterConfigurator
+    - VRTK.Prefabs.Locomotion.Teleporters.TeleporterFacade
+    - VRTK.Prefabs.PlayAreaRepresentation.PlayAreaRepresentationConfigurator
+    - VRTK.Prefabs.PlayAreaRepresentation.PlayAreaRepresentationFacade
+    - VRTK.Prefabs.Pointers.PointerConfigurator
+    - VRTK.Prefabs.Pointers.PointerFacade
+    - VRTK.Prefabs.Pointers.PointerFacadeComponentGameObjectExtractor
+    - VRTK.Prefabs.Pointers.PointerFacadeGameObjectExtractor
+    VRTK.Samples.Farm.Runtime.dll:
+    - VRTK.Examples.AnimatorScrubber
+    - VRTK.Examples.JointConnectedBodySetter
+    - VRTK.Examples.Prefabs.OptionsMenu.OptionsMenuFacade
+    - VRTK.Examples.Prefabs.WarehouseDoor.WarehouseDoor
+    - VRTK.Examples.Scarecrow.Tags.ScarecrowArmTag
+    - VRTK.Examples.Scarecrow.Tags.ScarecrowHandTag
+    - VRTK.Examples.Scarecrow.Tags.ScarecrowHatTag
+    - VRTK.Examples.Scarecrow.Tags.ScarecrowHeadTag
+    - VRTK.Examples.Tags.InteractableHacksawTag
+    - VRTK.Examples.Tags.InteractableHammerTag
+    - VRTK.Examples.Tags.InteractableSawTag
+    - VRTK.Examples.Tags.InvalidTeleportLocationTag
+    Zinnia.Runtime.dll:
+    - Zinnia.Action.ActionRegistrar
+    - Zinnia.Action.AllAction
+    - Zinnia.Action.AnyAction
+    - Zinnia.Action.BooleanAction
+    - Zinnia.Action.Collection.ActionObservableList
+    - Zinnia.Action.Collection.ActionRegistrarSourceObservableList
+    - Zinnia.Action.FloatAction
+    - Zinnia.Action.StateEmitter
+    - Zinnia.Action.SurfaceChangeAction
+    - Zinnia.Action.ToggleAction
+    - Zinnia.Action.Vector2Action
+    - Zinnia.Cast.Operation.Mutation.PointsCastPropertyMutator
+    - Zinnia.Cast.ParabolicLineCast
+    - Zinnia.Cast.PhysicsCast
+    - Zinnia.Cast.StraightLineCast
+    - Zinnia.Data.Collection.Counter.GameObjectObservableCounter
+    - Zinnia.Data.Collection.GameObjectRelations
+    - Zinnia.Data.Collection.List.BehaviourObservableList
+    - Zinnia.Data.Collection.List.FloatObservableList
+    - Zinnia.Data.Collection.List.GameObjectObservableList
+    - Zinnia.Data.Collection.List.GameObjectRelationObservableList
+    - Zinnia.Data.Collection.List.SerializableTypeBehaviourObservableList
+    - Zinnia.Data.Collection.List.SerializableTypeComponentObservableList
+    - Zinnia.Data.Collection.List.UnityObjectObservableList
+    - Zinnia.Data.Collection.List.Vector2ObservableList
+    - Zinnia.Data.Collection.List.Vector3ObservableList
+    - Zinnia.Data.Collection.Stack.GameObjectObservableStack
+    - Zinnia.Data.Operation.Extraction.ComponentGameObjectExtractor
+    - Zinnia.Data.Operation.Extraction.SurfaceDataCollisionPointExtractor
+    - Zinnia.Data.Operation.Extraction.TransformDataGameObjectExtractor
+    - Zinnia.Data.Operation.Extraction.TransformDirectionExtractor
+    - Zinnia.Data.Operation.Extraction.TransformEulerRotationExtractor
+    - Zinnia.Data.Operation.Extraction.TransformPositionExtractor
+    - Zinnia.Data.Operation.Extraction.Vector2ComponentExtractor
+    - Zinnia.Data.Operation.GameObjectCloner
+    - Zinnia.Data.Operation.Mutation.RigidbodyPropertyMutator
+    - Zinnia.Data.Operation.Mutation.TransformEulerRotationMutator
+    - Zinnia.Data.Operation.Mutation.TransformPositionMutator
+    - Zinnia.Data.Operation.Mutation.TransformScaleMutator
+    - Zinnia.Data.Type.Transformation.Aggregation.FloatAdder
+    - Zinnia.Data.Type.Transformation.Aggregation.FloatMultiplier
+    - Zinnia.Data.Type.Transformation.Aggregation.Vector2Multiplier
+    - Zinnia.Data.Type.Transformation.Aggregation.Vector3Multiplier
+    - Zinnia.Data.Type.Transformation.Aggregation.Vector3Subtractor
+    - Zinnia.Data.Type.Transformation.Conversion.AngleToVector2Direction
+    - Zinnia.Data.Type.Transformation.Conversion.BooleanToFloat
+    - Zinnia.Data.Type.Transformation.Conversion.FloatToBoolean
+    - Zinnia.Data.Type.Transformation.Conversion.FloatToVector2
+    - Zinnia.Data.Type.Transformation.Conversion.Vector2ToAngle
+    - Zinnia.Data.Type.Transformation.Conversion.Vector2ToVector3
+    - Zinnia.Data.Type.Transformation.Conversion.Vector3ToVector2
+    - Zinnia.Data.Type.Transformation.Vector3MagnitudeSetter
+    - Zinnia.Data.Type.Transformation.Vector3Restrictor
+    - Zinnia.Event.BehaviourEnabledObserver
+    - Zinnia.Event.Proxy.EmptyEventProxyEmitter
+    - Zinnia.Event.Proxy.FloatEventProxyEmitter
+    - Zinnia.Event.Proxy.GameObjectEventProxyEmitter
+    - Zinnia.Event.Proxy.SurfaceDataProxyEmitter
+    - Zinnia.Event.Proxy.TransformDataProxyEmitter
+    - Zinnia.Haptics.XRNodeHapticPulser
+    - Zinnia.Pointer.ObjectPointer
+    - Zinnia.Pointer.Operation.Mutation.PointerElementPropertyMutator
+    - Zinnia.Pointer.PointerElement
+    - Zinnia.Process.Moment.Collection.MomentProcessObservableList
+    - Zinnia.Process.Moment.MomentProcess
+    - Zinnia.Process.Moment.MomentProcessor
+    - Zinnia.Rule.ActiveInHierarchyRule
+    - Zinnia.Rule.AllRule
+    - Zinnia.Rule.AnyBehaviourEnabledRule
+    - Zinnia.Rule.AnyComponentTypeRule
+    - Zinnia.Rule.AnyLayerRule
+    - Zinnia.Rule.Collection.RuleContainerObservableList
+    - Zinnia.Rule.Collection.RulesMatcherElementObservableList
+    - Zinnia.Rule.ListContainsRule
+    - Zinnia.Rule.NegationRule
+    - Zinnia.Rule.RulesMatcher
+    - Zinnia.Tracking.CameraRig.Collection.LinkedAliasAssociationCollectionObservableList
+    - Zinnia.Tracking.CameraRig.LinkedAliasAssociationCollection
+    - Zinnia.Tracking.CameraRig.Operation.Extraction.PlayAreaDimensionsExtractor
+    - Zinnia.Tracking.Collision.Active.ActiveCollisionConsumer
+    - Zinnia.Tracking.Collision.Active.ActiveCollisionPublisher
+    - Zinnia.Tracking.Collision.Active.ActiveCollisionsContainer
+    - Zinnia.Tracking.Collision.Active.CollisionPointContainer
+    - Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionConsumerEventProxyEmitter
+    - Zinnia.Tracking.Collision.Active.Event.Proxy.ActiveCollisionsContainerEventProxyEmitter
+    - Zinnia.Tracking.Collision.Active.Operation.Extraction.NotifierContainerExtractor
+    - Zinnia.Tracking.Collision.Active.Operation.Extraction.NotifierTargetExtractor
+    - Zinnia.Tracking.Collision.Active.Operation.Extraction.PublisherContainerExtractor
+    - Zinnia.Tracking.Collision.Active.Operation.NearestSorter
+    - Zinnia.Tracking.Collision.Active.Operation.Slicer
+    - Zinnia.Tracking.Collision.CollisionIgnorer
+    - Zinnia.Tracking.Collision.CollisionNotifier
+    - Zinnia.Tracking.Collision.CollisionTracker
+    - Zinnia.Tracking.Follow.Modifier.FollowModifier
+    - Zinnia.Tracking.Follow.Modifier.Property.Position.RigidbodyVelocity
+    - Zinnia.Tracking.Follow.Modifier.Property.Position.TransformPosition
+    - Zinnia.Tracking.Follow.Modifier.Property.Rotation.RigidbodyAngularVelocity
+    - Zinnia.Tracking.Follow.Modifier.Property.Rotation.RigidbodyForceAtPosition
+    - Zinnia.Tracking.Follow.Modifier.Property.Rotation.TransformPositionDifferenceRotation
+    - Zinnia.Tracking.Follow.Modifier.Property.Rotation.TransformRotation
+    - Zinnia.Tracking.Follow.Modifier.Property.Scale.TransformScale
+    - Zinnia.Tracking.Follow.ObjectDistanceComparator
+    - Zinnia.Tracking.Follow.ObjectFollower
+    - Zinnia.Tracking.Follow.Operation.Extraction.ObjectDistanceComparatorEventDataExtractor
+    - Zinnia.Tracking.Modification.ComponentEnabledStateModifier
+    - Zinnia.Tracking.Modification.DirectionModifier
+    - Zinnia.Tracking.Modification.GameObjectStateMirror
+    - Zinnia.Tracking.Modification.GameObjectStateSwitcher
+    - Zinnia.Tracking.Modification.Operation.Extraction.TransformPropertyApplierEventDataExtractor
+    - Zinnia.Tracking.Modification.PointNormalRotator
+    - Zinnia.Tracking.Modification.TransformPropertyApplier
+    - Zinnia.Tracking.Query.FacingQuery
+    - Zinnia.Tracking.Query.ObscuranceQuery
+    - Zinnia.Tracking.SurfaceLocator
+    - Zinnia.Tracking.Velocity.ArtificialVelocityApplier
+    - Zinnia.Tracking.Velocity.AverageVelocityEstimator
+    - Zinnia.Tracking.Velocity.Collection.VelocityTrackerObservableList
+    - Zinnia.Tracking.Velocity.ComponentTrackerProxy
+    - Zinnia.Tracking.Velocity.VelocityApplier
+    - Zinnia.Tracking.Velocity.VelocityEmitter
+    - Zinnia.Tracking.Velocity.VelocityTrackerProcessor
+    - Zinnia.Utility.CountdownTimer
+    - Zinnia.Visual.CameraColorOverlay
+    - Zinnia.Visual.PointsRenderer
+  sceneClasses:
+    Assets/Scenes/Blackscreen.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 12240}
+    - Class: 114
+      Script: {instanceID: 12246}
+    - Class: 114
+      Script: {instanceID: 12252}
+    - Class: 114
+      Script: {instanceID: 12260}
+    - Class: 114
+      Script: {instanceID: 12296}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/JumpStart.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 12238}
+    - Class: 114
+      Script: {instanceID: 12240}
+    - Class: 114
+      Script: {instanceID: 12246}
+    - Class: 114
+      Script: {instanceID: 12252}
+    - Class: 114
+      Script: {instanceID: 12260}
+    - Class: 114
+      Script: {instanceID: 12296}
+    - Class: 114
+      Script: {instanceID: 12298}
+    - Class: 114
+      Script: {instanceID: 13482}
+    - Class: 114
+      Script: {instanceID: 13606}
+    - Class: 114
+      Script: {instanceID: 15706}
+    - Class: 114
+      Script: {instanceID: 18964}
+    - Class: 114
+      Script: {instanceID: 18966}
+    - Class: 114
+      Script: {instanceID: 18968}
+    - Class: 114
+      Script: {instanceID: 18970}
+    - Class: 114
+      Script: {instanceID: 18972}
+    - Class: 114
+      Script: {instanceID: 18974}
+    - Class: 114
+      Script: {instanceID: 18978}
+    - Class: 114
+      Script: {instanceID: 18982}
+    - Class: 114
+      Script: {instanceID: 18984}
+    - Class: 114
+      Script: {instanceID: 18986}
+    - Class: 114
+      Script: {instanceID: 18988}
+    - Class: 114
+      Script: {instanceID: 18994}
+    - Class: 114
+      Script: {instanceID: 18996}
+    - Class: 114
+      Script: {instanceID: 18998}
+    - Class: 114
+      Script: {instanceID: 19002}
+    - Class: 114
+      Script: {instanceID: 19006}
+    - Class: 114
+      Script: {instanceID: 19012}
+    - Class: 114
+      Script: {instanceID: 19016}
+    - Class: 114
+      Script: {instanceID: 19020}
+    - Class: 114
+      Script: {instanceID: 19028}
+    - Class: 114
+      Script: {instanceID: 19036}
+    - Class: 114
+      Script: {instanceID: 19040}
+    - Class: 114
+      Script: {instanceID: 19050}
+    - Class: 114
+      Script: {instanceID: 19060}
+    - Class: 114
+      Script: {instanceID: 19062}
+    - Class: 114
+      Script: {instanceID: 19064}
+    - Class: 114
+      Script: {instanceID: 19066}
+    - Class: 114
+      Script: {instanceID: 19068}
+    - Class: 114
+      Script: {instanceID: 19072}
+    - Class: 114
+      Script: {instanceID: 19074}
+    - Class: 114
+      Script: {instanceID: 19076}
+    - Class: 114
+      Script: {instanceID: 19080}
+    - Class: 114
+      Script: {instanceID: 19084}
+    - Class: 114
+      Script: {instanceID: 19088}
+    - Class: 114
+      Script: {instanceID: 19090}
+    - Class: 114
+      Script: {instanceID: 19100}
+    - Class: 114
+      Script: {instanceID: 19108}
+    - Class: 114
+      Script: {instanceID: 19110}
+    - Class: 114
+      Script: {instanceID: 19112}
+    - Class: 114
+      Script: {instanceID: 19116}
+    - Class: 114
+      Script: {instanceID: 19122}
+    - Class: 114
+      Script: {instanceID: 19126}
+    - Class: 114
+      Script: {instanceID: 19128}
+    - Class: 114
+      Script: {instanceID: 19140}
+    - Class: 114
+      Script: {instanceID: 19142}
+    - Class: 114
+      Script: {instanceID: 19154}
+    - Class: 114
+      Script: {instanceID: 19156}
+    - Class: 114
+      Script: {instanceID: 19162}
+    - Class: 114
+      Script: {instanceID: 19166}
+    - Class: 114
+      Script: {instanceID: 19170}
+    - Class: 114
+      Script: {instanceID: 19172}
+    - Class: 114
+      Script: {instanceID: 19176}
+    - Class: 114
+      Script: {instanceID: 19180}
+    - Class: 114
+      Script: {instanceID: 19184}
+    - Class: 114
+      Script: {instanceID: 19186}
+    - Class: 114
+      Script: {instanceID: 19188}
+    - Class: 114
+      Script: {instanceID: 19194}
+    - Class: 114
+      Script: {instanceID: 19198}
+    - Class: 114
+      Script: {instanceID: 19202}
+    - Class: 114
+      Script: {instanceID: 19204}
+    - Class: 114
+      Script: {instanceID: 19210}
+    - Class: 114
+      Script: {instanceID: 19214}
+    - Class: 114
+      Script: {instanceID: 19228}
+    - Class: 114
+      Script: {instanceID: 19238}
+    - Class: 114
+      Script: {instanceID: 19240}
+    - Class: 114
+      Script: {instanceID: 19244}
+    - Class: 114
+      Script: {instanceID: 19246}
+    - Class: 114
+      Script: {instanceID: 19250}
+    - Class: 114
+      Script: {instanceID: 19260}
+    - Class: 114
+      Script: {instanceID: 19264}
+    - Class: 114
+      Script: {instanceID: 19266}
+    - Class: 114
+      Script: {instanceID: 19268}
+    - Class: 114
+      Script: {instanceID: 19276}
+    - Class: 114
+      Script: {instanceID: 19282}
+    - Class: 114
+      Script: {instanceID: 19290}
+    - Class: 114
+      Script: {instanceID: 19292}
+    - Class: 114
+      Script: {instanceID: 19294}
+    - Class: 114
+      Script: {instanceID: 19296}
+    - Class: 114
+      Script: {instanceID: 19298}
+    - Class: 114
+      Script: {instanceID: 19304}
+    - Class: 114
+      Script: {instanceID: 19306}
+    - Class: 114
+      Script: {instanceID: 19310}
+    - Class: 114
+      Script: {instanceID: 19320}
+    - Class: 114
+      Script: {instanceID: 19332}
+    - Class: 114
+      Script: {instanceID: 19336}
+    - Class: 114
+      Script: {instanceID: 19340}
+    - Class: 114
+      Script: {instanceID: 19342}
+    - Class: 114
+      Script: {instanceID: 19344}
+    - Class: 114
+      Script: {instanceID: 19348}
+    - Class: 114
+      Script: {instanceID: 19350}
+    - Class: 114
+      Script: {instanceID: 19362}
+    - Class: 114
+      Script: {instanceID: 19368}
+    - Class: 114
+      Script: {instanceID: 19378}
+    - Class: 114
+      Script: {instanceID: 19382}
+    - Class: 114
+      Script: {instanceID: 19384}
+    - Class: 114
+      Script: {instanceID: 19386}
+    - Class: 114
+      Script: {instanceID: 19388}
+    - Class: 114
+      Script: {instanceID: 19390}
+    - Class: 114
+      Script: {instanceID: 19392}
+    - Class: 114
+      Script: {instanceID: 19394}
+    - Class: 114
+      Script: {instanceID: 19396}
+    - Class: 114
+      Script: {instanceID: 19400}
+    - Class: 114
+      Script: {instanceID: 19402}
+    - Class: 114
+      Script: {instanceID: 19404}
+    - Class: 114
+      Script: {instanceID: 19406}
+    - Class: 114
+      Script: {instanceID: 19408}
+    - Class: 114
+      Script: {instanceID: 19414}
+    - Class: 114
+      Script: {instanceID: 19416}
+    - Class: 114
+      Script: {instanceID: 19418}
+    - Class: 114
+      Script: {instanceID: 19420}
+    - Class: 114
+      Script: {instanceID: 19428}
+    - Class: 114
+      Script: {instanceID: 19434}
+    - Class: 114
+      Script: {instanceID: 19436}
+    - Class: 114
+      Script: {instanceID: 19448}
+    - Class: 114
+      Script: {instanceID: 19452}
+    - Class: 114
+      Script: {instanceID: 19454}
+    - Class: 114
+      Script: {instanceID: 19460}
+    - Class: 114
+      Script: {instanceID: 19464}
+    - Class: 114
+      Script: {instanceID: 19468}
+    - Class: 114
+      Script: {instanceID: 19470}
+    - Class: 114
+      Script: {instanceID: 19472}
+    - Class: 114
+      Script: {instanceID: 19474}
+    - Class: 114
+      Script: {instanceID: 19476}
+    - Class: 114
+      Script: {instanceID: 19488}
+    - Class: 114
+      Script: {instanceID: 19490}
+    - Class: 114
+      Script: {instanceID: 19492}
+    - Class: 114
+      Script: {instanceID: 19500}
+    - Class: 114
+      Script: {instanceID: 19502}
+    - Class: 114
+      Script: {instanceID: 19506}
+    - Class: 114
+      Script: {instanceID: 19510}
+    - Class: 114
+      Script: {instanceID: 19520}
+    - Class: 114
+      Script: {instanceID: 19522}
+    - Class: 114
+      Script: {instanceID: 19536}
+    - Class: 114
+      Script: {instanceID: 19538}
+    - Class: 114
+      Script: {instanceID: 19540}
+    - Class: 114
+      Script: {instanceID: 19544}
+    - Class: 114
+      Script: {instanceID: 19554}
+    - Class: 114
+      Script: {instanceID: 19556}
+    - Class: 114
+      Script: {instanceID: 19558}
+    - Class: 114
+      Script: {instanceID: 19564}
+    - Class: 114
+      Script: {instanceID: 19568}
+    - Class: 114
+      Script: {instanceID: 19574}
+    - Class: 114
+      Script: {instanceID: 19578}
+    - Class: 114
+      Script: {instanceID: 19584}
+    - Class: 114
+      Script: {instanceID: 19586}
+    - Class: 114
+      Script: {instanceID: 19592}
+    - Class: 114
+      Script: {instanceID: 19596}
+    - Class: 114
+      Script: {instanceID: 19598}
+    - Class: 114
+      Script: {instanceID: 19600}
+    - Class: 114
+      Script: {instanceID: 19604}
+    - Class: 114
+      Script: {instanceID: 19612}
+    - Class: 114
+      Script: {instanceID: 19614}
+    - Class: 114
+      Script: {instanceID: 19620}
+    - Class: 114
+      Script: {instanceID: 19622}
+    - Class: 114
+      Script: {instanceID: 19628}
+    - Class: 114
+      Script: {instanceID: 19630}
+    - Class: 114
+      Script: {instanceID: 19636}
+    - Class: 114
+      Script: {instanceID: 19638}
+    - Class: 114
+      Script: {instanceID: 19642}
+    - Class: 114
+      Script: {instanceID: 19644}
+    - Class: 114
+      Script: {instanceID: 19646}
+    - Class: 114
+      Script: {instanceID: 19648}
+    - Class: 114
+      Script: {instanceID: 19650}
+    - Class: 114
+      Script: {instanceID: 19656}
+    - Class: 114
+      Script: {instanceID: 19660}
+    - Class: 114
+      Script: {instanceID: 19664}
+    - Class: 114
+      Script: {instanceID: 19668}
+    - Class: 114
+      Script: {instanceID: 19672}
+    - Class: 114
+      Script: {instanceID: 19674}
+    - Class: 114
+      Script: {instanceID: 19676}
+    - Class: 114
+      Script: {instanceID: 19680}
+    - Class: 114
+      Script: {instanceID: 19682}
+    - Class: 114
+      Script: {instanceID: 19690}
+    - Class: 114
+      Script: {instanceID: 19694}
+    - Class: 114
+      Script: {instanceID: 19696}
+    - Class: 114
+      Script: {instanceID: 19700}
+    - Class: 114
+      Script: {instanceID: 19702}
+    - Class: 114
+      Script: {instanceID: 19704}
+    - Class: 114
+      Script: {instanceID: 19712}
+    - Class: 114
+      Script: {instanceID: 19720}
+    - Class: 114
+      Script: {instanceID: 19724}
+    - Class: 114
+      Script: {instanceID: 19732}
+    - Class: 114
+      Script: {instanceID: 19736}
+    - Class: 114
+      Script: {instanceID: 19742}
+    - Class: 114
+      Script: {instanceID: 19750}
+    - Class: 114
+      Script: {instanceID: 19752}
+    - Class: 114
+      Script: {instanceID: 19760}
+    - Class: 114
+      Script: {instanceID: 19764}
+    - Class: 114
+      Script: {instanceID: 19766}
+    - Class: 114
+      Script: {instanceID: 19778}
+    - Class: 114
+      Script: {instanceID: 19798}
+    - Class: 114
+      Script: {instanceID: 19804}
+    - Class: 114
+      Script: {instanceID: 19806}
+    - Class: 114
+      Script: {instanceID: 19808}
+    - Class: 114
+      Script: {instanceID: 19812}
+    - Class: 114
+      Script: {instanceID: 19816}
+    - Class: 114
+      Script: {instanceID: 19818}
+    - Class: 114
+      Script: {instanceID: 19820}
+    - Class: 114
+      Script: {instanceID: 19824}
+    - Class: 114
+      Script: {instanceID: 19830}
+    - Class: 114
+      Script: {instanceID: 19834}
+    - Class: 114
+      Script: {instanceID: 19836}
+    - Class: 114
+      Script: {instanceID: 19838}
+    - Class: 114
+      Script: {instanceID: 19840}
+    - Class: 114
+      Script: {instanceID: 19852}
+    - Class: 114
+      Script: {instanceID: 19858}
+    - Class: 114
+      Script: {instanceID: 19860}
+    - Class: 114
+      Script: {instanceID: 19862}
+    - Class: 114
+      Script: {instanceID: 19864}
+    - Class: 114
+      Script: {instanceID: 19876}
+    - Class: 114
+      Script: {instanceID: 19880}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 144
+      Script: {instanceID: 0}
+    - Class: 153
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/VRTK/Samples/Farm/Scenes/ExampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 59
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 109
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 12238}
+    - Class: 114
+      Script: {instanceID: 12240}
+    - Class: 114
+      Script: {instanceID: 12246}
+    - Class: 114
+      Script: {instanceID: 12252}
+    - Class: 114
+      Script: {instanceID: 12260}
+    - Class: 114
+      Script: {instanceID: 12296}
+    - Class: 114
+      Script: {instanceID: 12298}
+    - Class: 114
+      Script: {instanceID: 13178}
+    - Class: 114
+      Script: {instanceID: 13482}
+    - Class: 114
+      Script: {instanceID: 13490}
+    - Class: 114
+      Script: {instanceID: 13606}
+    - Class: 114
+      Script: {instanceID: 13756}
+    - Class: 114
+      Script: {instanceID: 15706}
+    - Class: 114
+      Script: {instanceID: 18964}
+    - Class: 114
+      Script: {instanceID: 18966}
+    - Class: 114
+      Script: {instanceID: 18968}
+    - Class: 114
+      Script: {instanceID: 18970}
+    - Class: 114
+      Script: {instanceID: 18972}
+    - Class: 114
+      Script: {instanceID: 18974}
+    - Class: 114
+      Script: {instanceID: 18978}
+    - Class: 114
+      Script: {instanceID: 18982}
+    - Class: 114
+      Script: {instanceID: 18984}
+    - Class: 114
+      Script: {instanceID: 18986}
+    - Class: 114
+      Script: {instanceID: 18988}
+    - Class: 114
+      Script: {instanceID: 18994}
+    - Class: 114
+      Script: {instanceID: 18996}
+    - Class: 114
+      Script: {instanceID: 18998}
+    - Class: 114
+      Script: {instanceID: 19002}
+    - Class: 114
+      Script: {instanceID: 19006}
+    - Class: 114
+      Script: {instanceID: 19012}
+    - Class: 114
+      Script: {instanceID: 19014}
+    - Class: 114
+      Script: {instanceID: 19016}
+    - Class: 114
+      Script: {instanceID: 19020}
+    - Class: 114
+      Script: {instanceID: 19028}
+    - Class: 114
+      Script: {instanceID: 19036}
+    - Class: 114
+      Script: {instanceID: 19040}
+    - Class: 114
+      Script: {instanceID: 19050}
+    - Class: 114
+      Script: {instanceID: 19060}
+    - Class: 114
+      Script: {instanceID: 19062}
+    - Class: 114
+      Script: {instanceID: 19064}
+    - Class: 114
+      Script: {instanceID: 19066}
+    - Class: 114
+      Script: {instanceID: 19068}
+    - Class: 114
+      Script: {instanceID: 19072}
+    - Class: 114
+      Script: {instanceID: 19074}
+    - Class: 114
+      Script: {instanceID: 19076}
+    - Class: 114
+      Script: {instanceID: 19080}
+    - Class: 114
+      Script: {instanceID: 19084}
+    - Class: 114
+      Script: {instanceID: 19088}
+    - Class: 114
+      Script: {instanceID: 19090}
+    - Class: 114
+      Script: {instanceID: 19092}
+    - Class: 114
+      Script: {instanceID: 19100}
+    - Class: 114
+      Script: {instanceID: 19108}
+    - Class: 114
+      Script: {instanceID: 19110}
+    - Class: 114
+      Script: {instanceID: 19112}
+    - Class: 114
+      Script: {instanceID: 19116}
+    - Class: 114
+      Script: {instanceID: 19122}
+    - Class: 114
+      Script: {instanceID: 19126}
+    - Class: 114
+      Script: {instanceID: 19128}
+    - Class: 114
+      Script: {instanceID: 19130}
+    - Class: 114
+      Script: {instanceID: 19140}
+    - Class: 114
+      Script: {instanceID: 19142}
+    - Class: 114
+      Script: {instanceID: 19154}
+    - Class: 114
+      Script: {instanceID: 19156}
+    - Class: 114
+      Script: {instanceID: 19162}
+    - Class: 114
+      Script: {instanceID: 19166}
+    - Class: 114
+      Script: {instanceID: 19170}
+    - Class: 114
+      Script: {instanceID: 19172}
+    - Class: 114
+      Script: {instanceID: 19176}
+    - Class: 114
+      Script: {instanceID: 19180}
+    - Class: 114
+      Script: {instanceID: 19184}
+    - Class: 114
+      Script: {instanceID: 19186}
+    - Class: 114
+      Script: {instanceID: 19188}
+    - Class: 114
+      Script: {instanceID: 19194}
+    - Class: 114
+      Script: {instanceID: 19196}
+    - Class: 114
+      Script: {instanceID: 19198}
+    - Class: 114
+      Script: {instanceID: 19202}
+    - Class: 114
+      Script: {instanceID: 19204}
+    - Class: 114
+      Script: {instanceID: 19210}
+    - Class: 114
+      Script: {instanceID: 19214}
+    - Class: 114
+      Script: {instanceID: 19228}
+    - Class: 114
+      Script: {instanceID: 19238}
+    - Class: 114
+      Script: {instanceID: 19240}
+    - Class: 114
+      Script: {instanceID: 19244}
+    - Class: 114
+      Script: {instanceID: 19246}
+    - Class: 114
+      Script: {instanceID: 19250}
+    - Class: 114
+      Script: {instanceID: 19260}
+    - Class: 114
+      Script: {instanceID: 19264}
+    - Class: 114
+      Script: {instanceID: 19266}
+    - Class: 114
+      Script: {instanceID: 19268}
+    - Class: 114
+      Script: {instanceID: 19276}
+    - Class: 114
+      Script: {instanceID: 19282}
+    - Class: 114
+      Script: {instanceID: 19290}
+    - Class: 114
+      Script: {instanceID: 19292}
+    - Class: 114
+      Script: {instanceID: 19294}
+    - Class: 114
+      Script: {instanceID: 19296}
+    - Class: 114
+      Script: {instanceID: 19298}
+    - Class: 114
+      Script: {instanceID: 19304}
+    - Class: 114
+      Script: {instanceID: 19306}
+    - Class: 114
+      Script: {instanceID: 19310}
+    - Class: 114
+      Script: {instanceID: 19320}
+    - Class: 114
+      Script: {instanceID: 19332}
+    - Class: 114
+      Script: {instanceID: 19336}
+    - Class: 114
+      Script: {instanceID: 19340}
+    - Class: 114
+      Script: {instanceID: 19342}
+    - Class: 114
+      Script: {instanceID: 19344}
+    - Class: 114
+      Script: {instanceID: 19348}
+    - Class: 114
+      Script: {instanceID: 19350}
+    - Class: 114
+      Script: {instanceID: 19362}
+    - Class: 114
+      Script: {instanceID: 19368}
+    - Class: 114
+      Script: {instanceID: 19378}
+    - Class: 114
+      Script: {instanceID: 19382}
+    - Class: 114
+      Script: {instanceID: 19384}
+    - Class: 114
+      Script: {instanceID: 19386}
+    - Class: 114
+      Script: {instanceID: 19388}
+    - Class: 114
+      Script: {instanceID: 19390}
+    - Class: 114
+      Script: {instanceID: 19392}
+    - Class: 114
+      Script: {instanceID: 19394}
+    - Class: 114
+      Script: {instanceID: 19396}
+    - Class: 114
+      Script: {instanceID: 19400}
+    - Class: 114
+      Script: {instanceID: 19402}
+    - Class: 114
+      Script: {instanceID: 19404}
+    - Class: 114
+      Script: {instanceID: 19406}
+    - Class: 114
+      Script: {instanceID: 19408}
+    - Class: 114
+      Script: {instanceID: 19414}
+    - Class: 114
+      Script: {instanceID: 19416}
+    - Class: 114
+      Script: {instanceID: 19418}
+    - Class: 114
+      Script: {instanceID: 19420}
+    - Class: 114
+      Script: {instanceID: 19428}
+    - Class: 114
+      Script: {instanceID: 19434}
+    - Class: 114
+      Script: {instanceID: 19436}
+    - Class: 114
+      Script: {instanceID: 19448}
+    - Class: 114
+      Script: {instanceID: 19450}
+    - Class: 114
+      Script: {instanceID: 19452}
+    - Class: 114
+      Script: {instanceID: 19454}
+    - Class: 114
+      Script: {instanceID: 19460}
+    - Class: 114
+      Script: {instanceID: 19464}
+    - Class: 114
+      Script: {instanceID: 19466}
+    - Class: 114
+      Script: {instanceID: 19468}
+    - Class: 114
+      Script: {instanceID: 19470}
+    - Class: 114
+      Script: {instanceID: 19472}
+    - Class: 114
+      Script: {instanceID: 19474}
+    - Class: 114
+      Script: {instanceID: 19476}
+    - Class: 114
+      Script: {instanceID: 19488}
+    - Class: 114
+      Script: {instanceID: 19490}
+    - Class: 114
+      Script: {instanceID: 19492}
+    - Class: 114
+      Script: {instanceID: 19500}
+    - Class: 114
+      Script: {instanceID: 19502}
+    - Class: 114
+      Script: {instanceID: 19506}
+    - Class: 114
+      Script: {instanceID: 19510}
+    - Class: 114
+      Script: {instanceID: 19520}
+    - Class: 114
+      Script: {instanceID: 19522}
+    - Class: 114
+      Script: {instanceID: 19536}
+    - Class: 114
+      Script: {instanceID: 19538}
+    - Class: 114
+      Script: {instanceID: 19540}
+    - Class: 114
+      Script: {instanceID: 19544}
+    - Class: 114
+      Script: {instanceID: 19550}
+    - Class: 114
+      Script: {instanceID: 19554}
+    - Class: 114
+      Script: {instanceID: 19556}
+    - Class: 114
+      Script: {instanceID: 19558}
+    - Class: 114
+      Script: {instanceID: 19564}
+    - Class: 114
+      Script: {instanceID: 19568}
+    - Class: 114
+      Script: {instanceID: 19574}
+    - Class: 114
+      Script: {instanceID: 19578}
+    - Class: 114
+      Script: {instanceID: 19584}
+    - Class: 114
+      Script: {instanceID: 19586}
+    - Class: 114
+      Script: {instanceID: 19592}
+    - Class: 114
+      Script: {instanceID: 19596}
+    - Class: 114
+      Script: {instanceID: 19598}
+    - Class: 114
+      Script: {instanceID: 19600}
+    - Class: 114
+      Script: {instanceID: 19604}
+    - Class: 114
+      Script: {instanceID: 19612}
+    - Class: 114
+      Script: {instanceID: 19614}
+    - Class: 114
+      Script: {instanceID: 19620}
+    - Class: 114
+      Script: {instanceID: 19622}
+    - Class: 114
+      Script: {instanceID: 19628}
+    - Class: 114
+      Script: {instanceID: 19630}
+    - Class: 114
+      Script: {instanceID: 19636}
+    - Class: 114
+      Script: {instanceID: 19638}
+    - Class: 114
+      Script: {instanceID: 19642}
+    - Class: 114
+      Script: {instanceID: 19644}
+    - Class: 114
+      Script: {instanceID: 19646}
+    - Class: 114
+      Script: {instanceID: 19648}
+    - Class: 114
+      Script: {instanceID: 19650}
+    - Class: 114
+      Script: {instanceID: 19656}
+    - Class: 114
+      Script: {instanceID: 19660}
+    - Class: 114
+      Script: {instanceID: 19664}
+    - Class: 114
+      Script: {instanceID: 19668}
+    - Class: 114
+      Script: {instanceID: 19670}
+    - Class: 114
+      Script: {instanceID: 19672}
+    - Class: 114
+      Script: {instanceID: 19674}
+    - Class: 114
+      Script: {instanceID: 19676}
+    - Class: 114
+      Script: {instanceID: 19680}
+    - Class: 114
+      Script: {instanceID: 19682}
+    - Class: 114
+      Script: {instanceID: 19690}
+    - Class: 114
+      Script: {instanceID: 19694}
+    - Class: 114
+      Script: {instanceID: 19696}
+    - Class: 114
+      Script: {instanceID: 19700}
+    - Class: 114
+      Script: {instanceID: 19702}
+    - Class: 114
+      Script: {instanceID: 19704}
+    - Class: 114
+      Script: {instanceID: 19708}
+    - Class: 114
+      Script: {instanceID: 19710}
+    - Class: 114
+      Script: {instanceID: 19712}
+    - Class: 114
+      Script: {instanceID: 19720}
+    - Class: 114
+      Script: {instanceID: 19724}
+    - Class: 114
+      Script: {instanceID: 19732}
+    - Class: 114
+      Script: {instanceID: 19736}
+    - Class: 114
+      Script: {instanceID: 19742}
+    - Class: 114
+      Script: {instanceID: 19750}
+    - Class: 114
+      Script: {instanceID: 19752}
+    - Class: 114
+      Script: {instanceID: 19760}
+    - Class: 114
+      Script: {instanceID: 19764}
+    - Class: 114
+      Script: {instanceID: 19766}
+    - Class: 114
+      Script: {instanceID: 19778}
+    - Class: 114
+      Script: {instanceID: 19798}
+    - Class: 114
+      Script: {instanceID: 19804}
+    - Class: 114
+      Script: {instanceID: 19806}
+    - Class: 114
+      Script: {instanceID: 19808}
+    - Class: 114
+      Script: {instanceID: 19812}
+    - Class: 114
+      Script: {instanceID: 19816}
+    - Class: 114
+      Script: {instanceID: 19818}
+    - Class: 114
+      Script: {instanceID: 19820}
+    - Class: 114
+      Script: {instanceID: 19822}
+    - Class: 114
+      Script: {instanceID: 19824}
+    - Class: 114
+      Script: {instanceID: 19830}
+    - Class: 114
+      Script: {instanceID: 19834}
+    - Class: 114
+      Script: {instanceID: 19836}
+    - Class: 114
+      Script: {instanceID: 19838}
+    - Class: 114
+      Script: {instanceID: 19840}
+    - Class: 114
+      Script: {instanceID: 19852}
+    - Class: 114
+      Script: {instanceID: 19858}
+    - Class: 114
+      Script: {instanceID: 19860}
+    - Class: 114
+      Script: {instanceID: 19862}
+    - Class: 114
+      Script: {instanceID: 19864}
+    - Class: 114
+      Script: {instanceID: 19876}
+    - Class: 114
+      Script: {instanceID: 19880}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 138
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 144
+      Script: {instanceID: 0}
+    - Class: 153
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 516824a435828eadd660ef2f1658a48e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 0852116b29df10ce3f9156850d406521
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 3f52d34ea17dfc771004b80f5d492445
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 686dc5ae0550d5cc850c0d1dcce4c018
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 12e64d607873da15ad3f833620350d51
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 92da9881aed190e8bb74661bcd74aa2c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 06a330481ec400be50745bb7faf76bd0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 97ace6213ad0f149b0917a4c669c6ca3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 85c97bcc5f84eeb0999d75902803b99d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: fc108ce7d98c40ac0907e8ca7f500c76
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 3ab7272a8b7d3ea5a142e0c9b6aae63b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 516824a435828eadd660ef2f1658a48e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 0852116b29df10ce3f9156850d406521
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 3f52d34ea17dfc771004b80f5d492445
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 686dc5ae0550d5cc850c0d1dcce4c018
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 12e64d607873da15ad3f833620350d51
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 92da9881aed190e8bb74661bcd74aa2c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 06a330481ec400be50745bb7faf76bd0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 97ace6213ad0f149b0917a4c669c6ca3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 85c97bcc5f84eeb0999d75902803b99d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: fc108ce7d98c40ac0907e8ca7f500c76
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 3ab7272a8b7d3ea5a142e0c9b6aae63b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 303ad70ce203ad874efe2965d0fbcff9
+    assemblyName: Unity.Analytics.Tracker.dll
+    namespaceName: UnityEngine.Analytics
+    className: AnalyticsEventTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 7fb9de8dcf73854b6b328eca1f7a6e6d
+    assemblyName: Unity.Analytics.Tracker.dll
+    namespaceName: UnityEngine.Analytics
+    className: AnalyticsTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 0077fc8e4fbae67f80e80ebd534de5a0
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: AnchorBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: f8b139fcde9fda6214245df246415cc7
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: AnchorInputListenerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: BackgroundPlaneBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: a8e431cd22067175e40e9a215394b9b9
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: CloudRecoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d0cc9c9c2236d0f19e2026d7dd502549
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ContentPositioningBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9c087a1be3d3c41e67cb8ce893c53581
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: CylinderTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: DefaultInitializationErrorHandlerInternal
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: DefaultInitializationErrorHandlerPlaceHolder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: DefaultModelRecoEventHandlerPlaceHolder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: DefaultTrackableBehaviourPlaceholder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GLErrorHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GuideView2DBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GuideView3DBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GuideViewCameraBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 297bb3168553c3955b1c71e1f37cf791
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GuideViewRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 3eb85da89644e0150b5905ee26ab3106
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ImageTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: b14bdc19729a47a24f3184da695f52b1
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: MaskOutBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 7f385624be48a4e21e0863bffeed51ba
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: MidAirPositionerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d538cbb7be9272f2d5d30e40452c1a06
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ModelRecoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 57221787cfdde96aa02f5e94d4baa694
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ModelTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 14547531f97912f3c23f957c94259346
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: MultiTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d9795bb3c27e6d2aed87319e0f6be069
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ObjectTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71f334637ad44c7e8e7abcaf5a4ed12a
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: PlaneFinderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: PreviewModelTurnOffBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: TurnOffBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9fa9f1030164f334ee65e118172f3e58
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: UserDefinedTargetBuildingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VideoBackgroundBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 750cc4178ad07e7a593bb5184bbd10b5
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VirtualButtonBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 8971d09ce7f62d9b5b8044d33c0f78e5
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VuforiaBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: ffd8816d88b11c11d24af998cf7f948a
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VuforiaConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: VuforiaMonoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 69167579cf7fcbb2676fc1e675963dcd
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VuMarkBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: fbbf64dcbe0662e3eda1dec45ea8f895
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: WireframeBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: WireframeTrackableEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 0077fc8e4fbae67f80e80ebd534de5a0
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: AnchorBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: f8b139fcde9fda6214245df246415cc7
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: AnchorInputListenerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: BackgroundPlaneBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: a8e431cd22067175e40e9a215394b9b9
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: CloudRecoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d0cc9c9c2236d0f19e2026d7dd502549
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ContentPositioningBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9c087a1be3d3c41e67cb8ce893c53581
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: CylinderTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: DefaultInitializationErrorHandlerInternal
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: DefaultInitializationErrorHandlerPlaceHolder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: DefaultModelRecoEventHandlerPlaceHolder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: DefaultTrackableBehaviourPlaceholder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GLErrorHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GuideView2DBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GuideView3DBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GuideViewCameraBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 297bb3168553c3955b1c71e1f37cf791
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GuideViewRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 3eb85da89644e0150b5905ee26ab3106
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ImageTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: b14bdc19729a47a24f3184da695f52b1
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: MaskOutBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 7f385624be48a4e21e0863bffeed51ba
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: MidAirPositionerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d538cbb7be9272f2d5d30e40452c1a06
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ModelRecoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 57221787cfdde96aa02f5e94d4baa694
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ModelTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 14547531f97912f3c23f957c94259346
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: MultiTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d9795bb3c27e6d2aed87319e0f6be069
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ObjectTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71f334637ad44c7e8e7abcaf5a4ed12a
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: PlaneFinderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: PreviewModelTurnOffBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: TurnOffBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9fa9f1030164f334ee65e118172f3e58
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: UserDefinedTargetBuildingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VideoBackgroundBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 750cc4178ad07e7a593bb5184bbd10b5
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VirtualButtonBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 8971d09ce7f62d9b5b8044d33c0f78e5
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VuforiaBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: ffd8816d88b11c11d24af998cf7f948a
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VuforiaConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: VuforiaMonoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 69167579cf7fcbb2676fc1e675963dcd
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VuMarkBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: fbbf64dcbe0662e3eda1dec45ea8f895
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: WireframeBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: WireframeTrackableEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Analytics.Editor.dll
+    namespaceName: UnityEditor.Analytics
+    className: AnalyticsEventTrackerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: EnumerableSetUpTearDownCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 259d013faac28e8ba0aa2a7542273735
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 0077fc8e4fbae67f80e80ebd534de5a0
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: AnchorBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: f8b139fcde9fda6214245df246415cc7
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: AnchorInputListenerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: BackgroundPlaneBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: a8e431cd22067175e40e9a215394b9b9
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: CloudRecoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d0cc9c9c2236d0f19e2026d7dd502549
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ContentPositioningBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9c087a1be3d3c41e67cb8ce893c53581
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: CylinderTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: DefaultInitializationErrorHandlerInternal
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: DefaultInitializationErrorHandlerPlaceHolder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: DefaultModelRecoEventHandlerPlaceHolder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: DefaultTrackableBehaviourPlaceholder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GLErrorHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GuideView2DBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GuideView3DBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GuideViewCameraBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 297bb3168553c3955b1c71e1f37cf791
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GuideViewRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 3eb85da89644e0150b5905ee26ab3106
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ImageTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: b14bdc19729a47a24f3184da695f52b1
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: MaskOutBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 7f385624be48a4e21e0863bffeed51ba
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: MidAirPositionerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d538cbb7be9272f2d5d30e40452c1a06
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ModelRecoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 57221787cfdde96aa02f5e94d4baa694
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ModelTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 14547531f97912f3c23f957c94259346
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: MultiTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d9795bb3c27e6d2aed87319e0f6be069
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ObjectTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71f334637ad44c7e8e7abcaf5a4ed12a
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: PlaneFinderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: PreviewModelTurnOffBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: TurnOffBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9fa9f1030164f334ee65e118172f3e58
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: UserDefinedTargetBuildingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VideoBackgroundBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 750cc4178ad07e7a593bb5184bbd10b5
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VirtualButtonBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 8971d09ce7f62d9b5b8044d33c0f78e5
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VuforiaBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: ffd8816d88b11c11d24af998cf7f948a
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VuforiaConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: VuforiaMonoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 69167579cf7fcbb2676fc1e675963dcd
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VuMarkBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: fbbf64dcbe0662e3eda1dec45ea8f895
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: WireframeBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: WireframeTrackableEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 0077fc8e4fbae67f80e80ebd534de5a0
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: AnchorBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: f8b139fcde9fda6214245df246415cc7
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: AnchorInputListenerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: BackgroundPlaneBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: a8e431cd22067175e40e9a215394b9b9
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: CloudRecoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d0cc9c9c2236d0f19e2026d7dd502549
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ContentPositioningBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9c087a1be3d3c41e67cb8ce893c53581
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: CylinderTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: DefaultInitializationErrorHandlerInternal
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: DefaultInitializationErrorHandlerPlaceHolder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: DefaultModelRecoEventHandlerPlaceHolder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: DefaultTrackableBehaviourPlaceholder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GLErrorHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GuideView2DBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GuideView3DBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GuideViewCameraBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 297bb3168553c3955b1c71e1f37cf791
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: GuideViewRenderingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 3eb85da89644e0150b5905ee26ab3106
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ImageTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: b14bdc19729a47a24f3184da695f52b1
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: MaskOutBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 7f385624be48a4e21e0863bffeed51ba
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: MidAirPositionerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d538cbb7be9272f2d5d30e40452c1a06
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ModelRecoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 57221787cfdde96aa02f5e94d4baa694
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ModelTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 14547531f97912f3c23f957c94259346
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: MultiTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d9795bb3c27e6d2aed87319e0f6be069
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ObjectTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71f334637ad44c7e8e7abcaf5a4ed12a
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: PlaneFinderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: PreviewModelTurnOffBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: TurnOffBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9fa9f1030164f334ee65e118172f3e58
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: UserDefinedTargetBuildingBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VideoBackgroundBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 750cc4178ad07e7a593bb5184bbd10b5
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VirtualButtonBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 8971d09ce7f62d9b5b8044d33c0f78e5
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VuforiaBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: ffd8816d88b11c11d24af998cf7f948a
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VuforiaConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: 
+    className: VuforiaMonoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 69167579cf7fcbb2676fc1e675963dcd
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: VuMarkBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: fbbf64dcbe0662e3eda1dec45ea8f895
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: WireframeBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: WireframeTrackableEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 984dcc0ba3707b7691fbdca8ff508d28
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bf530eb47e6a86dcee1d42e40c3b7ac8
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 9e70ecf91466f07d9bd649be625cae52
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f08a111e17bb701f9c9ec57bb78d9920
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 00274a21279f5cb831ce20f895049e38
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 780e8f682b3221346c034a6712a0fd25
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b8a5e8091ab0b8861d2add371082c5e0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: b3ab2106268377ffe25dd18ac23dca28
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Asset
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 3f8d7b92a6be3c715e55d5cfa7cc8384
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 4a0369cd366c126cd420018a4ac01f32
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e1300922cc039f41ab46a47f4cb05898
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ee0cef6caaac8ae485bfa82f000f0f7b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 516824a435828eadd660ef2f1658a48e
+    assemblyName: Unity.Analytics.DataPrivacy.dll
+    namespaceName: UnityEngine.Analytics
+    className: DataPrivacyButton
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 5372ed2ce39229b1ac910757999a8be2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 8649814970b42d345b89944b862453cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 04e4a8b0447477cc4e933d9e5311188f
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 52bcb9c2a78bdd8d98a59e915c346e75
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: UnityEngine.SpatialTracking.dll
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 893dbdbfe611d62e230a686ea89f1efd
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 266e2684211c1fa4fb3add77080e88c0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast
+    className: ParabolicLineCast
+  - hash:
+      serializedVersion: 2
+      Hash: 6ff8796ea14ce1d8e026501cde0572ae
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.DestinationLocations
+    className: DestinationLocationFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 3ba511d6778af7ef51aac1b9a1a179fc
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab.Action
+    className: GrabInteractableAction
+  - hash:
+      serializedVersion: 2
+      Hash: 27d2e8ac1515725730c90c21682879ac
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking
+    className: SurfaceLocator
+  - hash:
+      serializedVersion: 2
+      Hash: 877f46a6c58df10888c0fa1e529b3e00
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: GameObjectEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 2257c3091856c49ce49e4c28b1e1ae7a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Scale
+    className: TransformScale
+  - hash:
+      serializedVersion: 2
+      Hash: 25d7585b47fecc757d75961ce9e61ad1
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation
+    className: Vector3MagnitudeSetter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.DestinationLocations
+    className: DestinationLocationLockedStateTag
+  - hash:
+      serializedVersion: 2
+      Hash: 7df54f0f69e4b490b39970043c1b540f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Mutation
+    className: TransformScaleMutator
+  - hash:
+      serializedVersion: 2
+      Hash: 8ce6c3c1fb2f962ae91c37a19bb58c4e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.Counter
+    className: GameObjectObservableCounter
+  - hash:
+      serializedVersion: 2
+      Hash: a56de14685c5c56bd066a1d5f4434c26
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: SerializableTypeComponentObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 4fb607e1107e2510a63e0d6b04f73e63
+    assemblyName: VRTK.Samples.Farm.Runtime.dll
+    namespaceName: VRTK.Examples
+    className: JointConnectedBodySetter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.BodyRepresentation
+    className: BodyRepresentationColliderTag
+  - hash:
+      serializedVersion: 2
+      Hash: 14391671eded4d8ce6df7ed28535d62f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Controllables
+    className: DirectionalDriveFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 6f07d410a143b7a78ed2dbfcf6ae0333
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToVector2
+  - hash:
+      serializedVersion: 2
+      Hash: 11d187d70dafbe26b676ebed0c9eda8b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation
+    className: FloatRangeValueRemapper
+  - hash:
+      serializedVersion: 2
+      Hash: 1b1062ec0b6b4ee5fd378809ac77ff08
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab.Provider
+    className: GrabInteractableStackInteractorProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 3d3d6e1f131504735b28461523fe10c3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: ListContainsRule
+  - hash:
+      serializedVersion: 2
+      Hash: 1a304e74a63aa7ea3d9300219eee4704
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Haptics
+    className: InteractorHapticsConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 77a5ce679570c14a49885173645e78ea
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors
+    className: ActionInteractorConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 0ef447c63fc4a67e5e0b31aa0f82b94d
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Pointers
+    className: PointerFacadeGameObjectExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 815b355d88daffbcd4b00b692025a932
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: Vector2ObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 520239a1679405cc9c5254f678ce39d2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: EmptyEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc54c9de3244048e547144d2897fbe0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision
+    className: CollisionNotifier
+  - hash:
+      serializedVersion: 2
+      Hash: 001eedd044b9a3268d4e186d4805aa9b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyTagRule
+  - hash:
+      serializedVersion: 2
+      Hash: 36260a7c7ae2d155f633022692f1fda9
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.BodyRepresentation
+    className: BodyRepresentationFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zinnia.Tests.Editor.dll
+    namespaceName: Test.Zinnia.Data.Type.Transformation.Conversion
+    className: Vector2ToFloatTest
+  - hash:
+      serializedVersion: 2
+      Hash: 061f10b145810274204206322c6973cc
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.UnityXRCameraRig.Input
+    className: UnityAxis1DAction
+  - hash:
+      serializedVersion: 2
+      Hash: b1299c30ced5950d3d7d5d51dcac728e
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Helpers.Tooltip
+    className: TooltipConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 79a120ea0a9fbd921a0720613ce23598
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.InteractableSnapZone
+    className: SnapZoneConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1c6d8c98b76627b8b99e31d0edc926
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: BooleanToFloat
+  - hash:
+      serializedVersion: 2
+      Hash: 4fab35fd8fdad3c4658e7cbfe7e2987e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: ComponentGameObjectExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: f9654ab2b14c99684549e5ea6fd4992e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: ComponentEnabledStateModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 7e394d578dea8ffa781cf49e6f9214b9
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process.Moment
+    className: MomentProcess
+  - hash:
+      serializedVersion: 2
+      Hash: d71d7881910a80caf77dafe651bd04b0
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection
+    className: GameObjectRelations
+  - hash:
+      serializedVersion: 2
+      Hash: d14b5caca3610ffe26ad6cd89c3b1a34
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Helpers.AxisRotator
+    className: AxisRotatorConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 97eff440b63ae26b6e33493121f1b31e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: BehaviourObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: e38e1b1f9227cdd5ce0020db60495364
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.AxesToVector3
+    className: AxesToVector3Facade
+  - hash:
+      serializedVersion: 2
+      Hash: 2257c3091856c49ce49e4c28b1e1ae7a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Position
+    className: TransformPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 67a84cba6278b54136fb8ffcb7aca2d7
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab.Provider
+    className: GrabInteractableListInteractorProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 40271ee77a6166a81543e94fb3d13128
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: SurfaceChangeAction
+  - hash:
+      serializedVersion: 2
+      Hash: 1fd66f13f4fae2188d3a687d206c9360
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: AngleToVector2Direction
+  - hash:
+      serializedVersion: 2
+      Hash: eb936c9cebd312125a39615cade1e46d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: DirectionModifier
+  - hash:
+      serializedVersion: 2
+      Hash: ffe642add16635217f1d4e6c9827be75
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process.Moment
+    className: MomentProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors.ComponentTags
+    className: IgnoreInteractorCollisionTag
+  - hash:
+      serializedVersion: 2
+      Hash: be1c3fc9281e708192016f9105c91299
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: Vector3ObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 55d25ef10b830098920ade5f47e33eff
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: AudioClipHapticPulser
+  - hash:
+      serializedVersion: 2
+      Hash: 0188847416abd94b488df0069396b9ad
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity.Collection
+    className: VelocityTrackerObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 97754f2053651386be971ec65c9109a9
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: ArtificialVelocityApplier
+  - hash:
+      serializedVersion: 2
+      Hash: 98dd7847f1b9186a8600346791661ca7
+    assemblyName: VRTK.Samples.Farm.Runtime.dll
+    namespaceName: VRTK.Examples
+    className: AnimatorScrubber
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zinnia.Tests.Utility.dll
+    namespaceName: Test.Zinnia.Utility.Mock
+    className: VelocityTrackerMock
+  - hash:
+      serializedVersion: 2
+      Hash: fb648ac82b9f3352dd39381b2bb4f222
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: StringObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 542110418acc7a1ed6c69b8183ec59ad
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyComponentTypeRule
+  - hash:
+      serializedVersion: 2
+      Hash: 6e6727b424242b1b5af099d2ca6330cc
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.DestinationLocations
+    className: DestinationLocation
+  - hash:
+      serializedVersion: 2
+      Hash: eff2dd672b7e8665bf649bc834aff006
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.InteractableSnapZone
+    className: SnapZoneFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 1387325b4ca93fc8174d9b3339f122c7
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: Vector3Subtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 9d566dd2f57dc023a0af26bcb4d76dee
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyRule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.DestinationLocations
+    className: ActionDispatcher
+  - hash:
+      serializedVersion: 2
+      Hash: 424a3f3379d8a155bea5f1c1cd05528f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Event.Proxy
+    className: CollisionNotifierEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: c03b64ffba4edcc107eeeb98b4a38395
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Helpers.TrackedCollider
+    className: TrackedColliderConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: a51456675c74f0cfc69af07aef052d8a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector2ToAngle
+  - hash:
+      serializedVersion: 2
+      Hash: e1e78cfe2d6a5c5610cebbbeb42e2732
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: CollisionPointContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 66541ca71b4fba1344ac590d01704c14
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.Climb
+    className: ClimbVelocityApplier
+  - hash:
+      serializedVersion: 2
+      Hash: d325fe3fa0d3495f10ca82627bab3007
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables
+    className: InteractableConsumerContainerExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 3d039c96508d95af726a568a9cf2070b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: Vector2ComponentExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: f8e78a3b9ad72259c623087e27fa8428
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: ComponentTrackerProxy
+  - hash:
+      serializedVersion: 2
+      Hash: c0e2d27bb994fd918b71c1d294d8135d
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Controllables
+    className: DirectionalJointDrive
+  - hash:
+      serializedVersion: 2
+      Hash: d325fe3fa0d3495f10ca82627bab3007
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables
+    className: InteractableFacadeExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 0cdf1c2671eca4ee349fa4e49be90c5b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Association
+    className: LoadedXrDeviceAssociation
+  - hash:
+      serializedVersion: 2
+      Hash: b5282125181e5b13b8c339378377f8e0
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables
+    className: InteractablePropertyCache
+  - hash:
+      serializedVersion: 2
+      Hash: 482621ef0ce0fcf37e29e5ae70c9f576
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Controllables
+    className: RotationalJointDrive
+  - hash:
+      serializedVersion: 2
+      Hash: b98b8807980ebc45e1d74e5892678dc8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: VelocityEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: f65d022c07f2bb90a7c2c27d85ccf21c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pointer
+    className: PointerElement
+  - hash:
+      serializedVersion: 2
+      Hash: 176728a901284aaadd1a0ca544e9e920
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyBehaviourEnabledRule
+  - hash:
+      serializedVersion: 2
+      Hash: d325fe3fa0d3495f10ca82627bab3007
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables
+    className: InteractableConsumerRigidbodyExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 7623cd361af0c5003b30ea12a6f484e7
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: RigidbodyForceAtPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 37b0c2e76cad579c4655826713e52332
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.SimulatedCameraRig
+    className: ActiveObjectController
+  - hash:
+      serializedVersion: 2
+      Hash: 5a49e4d18039b2292c9e48fe5dade000
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics.Collection
+    className: HapticProcessObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Controllables.ComponentTags
+    className: ControllableJointDriveContainerTag
+  - hash:
+      serializedVersion: 2
+      Hash: cc4366fbf9de20ff5d58dff7cc93ec53
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Controllables
+    className: DirectionalTransformDrive
+  - hash:
+      serializedVersion: 2
+      Hash: 8d56d815d548ac734fd494069afb156b
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors
+    className: TouchInteractorConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: f03e715efc06166652b50734d144ef72
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: VelocityTrackerProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: 2182cb0bd649f704662a66c3436964d6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: NegationRule
+  - hash:
+      serializedVersion: 2
+      Hash: 271e68c6456f9ba0c4301cd16a217fd8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event
+    className: BehaviourEnabledObserver
+  - hash:
+      serializedVersion: 2
+      Hash: 8e69d62a3f550ae66c76e1271fee60d8
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.UnityXRCameraRig
+    className: UnityXRConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 7275e47ae308cf06a0b5e566b3bfd758
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.CameraRig.Collection
+    className: LinkedAliasAssociationCollectionObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 220942ebd4a8206ceaaadfb26e160163
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.SimulatedCameraRig
+    className: TransformPropertyResetter
+  - hash:
+      serializedVersion: 2
+      Hash: cd46b185d8d6f8e2daa8c2832bc4cb15
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.PlayAreaRepresentation
+    className: PlayAreaRepresentationFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zinnia.Tests.Utility.dll
+    namespaceName: Test.Zinnia.Utility.Stub
+    className: RuleStub
+  - hash:
+      serializedVersion: 2
+      Hash: 6e544a3a37226124993a3eac6646a046
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification.Operation.Extraction
+    className: TransformPropertyApplierEventDataExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: dfcc2ef42b7d029d7247759f60bb2f96
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule.Collection
+    className: RuleContainerObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 3f105b112f1331a7adfc8f05d61a1d48
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: HapticProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: 38708f7dd87abb100d921e6389d57b3a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Visual
+    className: CameraColorOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.CameraRigSwitcher
+    className: XRSettingsConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 7133581702b65be7388ded00e0202d01
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab.Receiver
+    className: GrabInteractableReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: a14c8a38fd1ff5f57b028998c35f5070
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformDirectionExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 5b3f6f1c50f87343f07304b19fd3dd3c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: AverageVelocityEstimator
+  - hash:
+      serializedVersion: 2
+      Hash: 0a0b5a12c64300ca8c753d3afcb5770e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: XRNodeVelocityEstimator
+  - hash:
+      serializedVersion: 2
+      Hash: 520239a1679405cc9c5254f678ce39d2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: FloatEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 9f8417738ea18900ada81dfc51554395
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab.Action
+    className: GrabInteractableFollowAction
+  - hash:
+      serializedVersion: 2
+      Hash: 1026ed1fdc84541c5ff193e3f700653c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector3ToVector2
+  - hash:
+      serializedVersion: 2
+      Hash: eb389a94bcada1c0b734b75e8d77ab86
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables
+    className: InteractableFacade
+  - hash:
+      serializedVersion: 2
+      Hash: ec27ee36c0a03ec391fb3405e83e6504
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: VelocityMultiplier
+  - hash:
+      serializedVersion: 2
+      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: PointNormalRotator
+  - hash:
+      serializedVersion: 2
+      Hash: 4422d73e827dea43cd5edcd27353b243
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Helpers.SceneConsole
+    className: SceneConsoleFacade
+  - hash:
+      serializedVersion: 2
+      Hash: d325fe3fa0d3495f10ca82627bab3007
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation.Extraction
+    className: NotifierContainerExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: ae5e37648444225300cc375c472933b2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Query
+    className: ObscuranceQuery
+  - hash:
+      serializedVersion: 2
+      Hash: 4020bda067d6264668bae08ba107d855
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pointer
+    className: ObjectPointer
+  - hash:
+      serializedVersion: 2
+      Hash: 07ddfab0bd4a5e00317cd50ab8423668
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier
+    className: FollowModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 815eccb43e6d661ca95ea50e332da1b5
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Helpers.TrackedCollider
+    className: TrackedColliderFacade
+  - hash:
+      serializedVersion: 2
+      Hash: f49f6cf1abe3bfc69df7bd91696a225b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow
+    className: ObjectFollower
+  - hash:
+      serializedVersion: 2
+      Hash: 7228e6d4636fa8122f48e126c567a386
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Position
+    className: RigidbodyVelocity
+  - hash:
+      serializedVersion: 2
+      Hash: 520239a1679405cc9c5254f678ce39d2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: TransformDataProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: b7cd0ab3ffd2d516663f26956baba587
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Association.Collection
+    className: GameObjectsAssociationObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 1f2feea55bedf19d47c1619d83f0b6b4
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Visual
+    className: PointsRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 83bc5353f780ff72f4d38c3e98cf1973
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: Vector2Action
+  - hash:
+      serializedVersion: 2
+      Hash: 655f15148d872507f0f9de5dfebeecf1
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.InteractableSnapZone
+    className: ActivationValidator
+  - hash:
+      serializedVersion: 2
+      Hash: d325fe3fa0d3495f10ca82627bab3007
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors
+    className: InteractorExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Samples.Farm.Runtime.dll
+    namespaceName: VRTK.Examples.Tags
+    className: InvalidTeleportLocationTag
+  - hash:
+      serializedVersion: 2
+      Hash: 520239a1679405cc9c5254f678ce39d2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Event.Proxy
+    className: SurfaceDataProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 6b8bedbfe64fbfc065bd496759987324
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab
+    className: GrabInteractableConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: b08bba68c9cf2f9d6504028497fe9af1
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: GameObjectRelationObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 8d7393ec1490eaa4b088f01b76a7891f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation
+    className: NearestSorter
+  - hash:
+      serializedVersion: 2
+      Hash: b480b6202f9b49c42f59842c0071cd2d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast
+    className: StraightLineCast
+  - hash:
+      serializedVersion: 2
+      Hash: ee33d4afc10f4e44bb722522af4dae1e
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow
+    className: ObjectDistanceComparator
+  - hash:
+      serializedVersion: 2
+      Hash: 2856c3f95afeb58adcfdbc033f1307f9
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Pointers
+    className: PointerFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 3bdce0258aae1772c451a2dc8df58c90
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: AllAction
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors.ComponentTags
+    className: StopGrabbingTag
+  - hash:
+      serializedVersion: 2
+      Hash: 520239a1679405cc9c5254f678ce39d2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Event.Proxy
+    className: ActiveCollisionsContainerEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: e6d99d85ce44367d18c797d4e659be2d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatMultiplier
+  - hash:
+      serializedVersion: 2
+      Hash: 3ba511d6778af7ef51aac1b9a1a179fc
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab.Action
+    className: GrabInteractableSwapAction
+  - hash:
+      serializedVersion: 2
+      Hash: a509650020474e8c2a343581439c27d2
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.AxesToVector3
+    className: AxesToVector3Processor
+  - hash:
+      serializedVersion: 2
+      Hash: 81357d4ab6f165cb42b17552281c1391
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector2ToVector3
+  - hash:
+      serializedVersion: 2
+      Hash: e3f42509bf72ec79e74ff61ab765f340
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: GameObjectStateMirror
+  - hash:
+      serializedVersion: 2
+      Hash: 3bdce0258aae1772c451a2dc8df58c90
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: AnyAction
+  - hash:
+      serializedVersion: 2
+      Hash: 211a16c9f221cabde993c863bf6b3806
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Velocity
+    className: VelocityApplier
+  - hash:
+      serializedVersion: 2
+      Hash: 4b1638e7c82782345054677fe604b8ff
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule.Collection
+    className: RulesMatcherElementObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 4e9fda77c1287ea0bfc58af1054ed088
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab
+    className: InteractableGrabStateEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 12a838849798e429e26b27be7b1889bd
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Helpers.AxisRotator
+    className: AxisRotatorFacade
+  - hash:
+      serializedVersion: 2
+      Hash: e3969c7ca12f70f303e91d627521c5d2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: ActiveCollisionsContainer
+  - hash:
+      serializedVersion: 2
+      Hash: bf7767cc325a7f8c88b03f00b7db35cc
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action.Collection
+    className: ActionRegistrarSourceObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: d50c3f33d57e5b5496b3e405fc382e4b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: RulesMatcher
+  - hash:
+      serializedVersion: 2
+      Hash: cc2ac14618505a1c011be84c84796a63
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: FloatAction
+  - hash:
+      serializedVersion: 2
+      Hash: 8bfb2d9c9e4b98061d3b0a7c96587348
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.MovementAmplifier
+    className: MovementAmplifierFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 09eca56b9b080521b49b59b92c126ac9
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.PlayAreaRepresentation
+    className: PlayAreaRepresentationConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 2a991f41d1c9286005f7019842391896
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: SurfaceDataCollisionPointExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 09d76b226843d6ff183c057e746fdbb4
+    assemblyName: VRTK.Samples.Farm.Runtime.dll
+    namespaceName: VRTK.Examples.Prefabs.OptionsMenu
+    className: OptionsMenuFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 5c3f07d871a6f1f9a3cb71c92b1becf5
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Teleporters
+    className: TeleporterConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 1c307d86ffa6a03225731abba6554ca9
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: UnityObjectObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: b8afcafe3461e37e96491ee28c262ebf
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Controllables
+    className: RotationalDriveFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 141b6f284a4e8bc6ca482dc3556f287a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Association
+    className: GameObjectsAssociationActivator
+  - hash:
+      serializedVersion: 2
+      Hash: 229827561222db1f4e766a3eb65da2a8
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.SimulatedCameraRig
+    className: SimulatorConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 10c78f9fa2eb16420ca1d96658961b60
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: RigidbodyAngularVelocity
+  - hash:
+      serializedVersion: 2
+      Hash: 54434edb87ea289b9f440209b57de750
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.MovementAmplifier
+    className: MovementAmplifierConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 877f46a6c58df10888c0fa1e529b3e00
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors
+    className: InteractorFacadeEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 9df08c8fecbf68cd99b32037ab6352bf
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformPositionExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 3c8f8d94560f99c9064e136a4cd3e726
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Query
+    className: FacingQuery
+  - hash:
+      serializedVersion: 2
+      Hash: 68c847264e89d7a2e0e6d512c47067a8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: TransformPropertyApplier
+  - hash:
+      serializedVersion: 2
+      Hash: a56de14685c5c56bd066a1d5f4434c26
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: SerializableTypeBehaviourObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 85dafbe40fb3c94d0638f3a780083b79
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision
+    className: CollisionTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 6ee14e03af17a61e7104e4ff754feba5
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: ActionRegistrar
+  - hash:
+      serializedVersion: 2
+      Hash: b4e7db8026eb599b98398540d8028742
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: XRNodeHapticPulser
+  - hash:
+      serializedVersion: 2
+      Hash: 42511b380cb21bf0c5b5a743f8bbe792
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.SimulatedCameraRig
+    className: KeyBindingDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors.ComponentTags
+    className: StartActionTag
+  - hash:
+      serializedVersion: 2
+      Hash: a0bbb3b04f783eaa1c2a19657b75b031
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors.Collection
+    className: InteractorFacadeObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Samples.Farm.Runtime.dll
+    namespaceName: VRTK.Examples.Scarecrow.Tags
+    className: ScarecrowHatTag
+  - hash:
+      serializedVersion: 2
+      Hash: 8a710212b2b883f6c4b9fa3a8d49dbea
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Mutation
+    className: TransformPositionMutator
+  - hash:
+      serializedVersion: 2
+      Hash: 497f38958836f31d436b05950e448a1f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation
+    className: Vector3Restrictor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Samples.Farm.Runtime.dll
+    namespaceName: VRTK.Examples.Tags
+    className: InteractableSawTag
+  - hash:
+      serializedVersion: 2
+      Hash: c0cf8a5e58af42359bb6aa48a380e185
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Utility
+    className: CountdownTimer
+  - hash:
+      serializedVersion: 2
+      Hash: 70739212df816bfb12da8e9130527013
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors
+    className: InteractorFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 1776a012a5fa9aaa82fea9037413bbec
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Helpers.Tooltip
+    className: TooltipFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 32b165e2bd999660474438817d0a64ce
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation
+    className: OrderReverser
+  - hash:
+      serializedVersion: 2
+      Hash: 4cf979ef2061790b7f65ca43b5109d55
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: GameObjectStateSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: 824bfaaa55852f2d71fe2a5690ff73c3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.CameraRig
+    className: LinkedAliasAssociationCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: ActiveInHierarchyRule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Samples.Farm.Runtime.dll
+    namespaceName: VRTK.Examples.Scarecrow.Tags
+    className: ScarecrowArmTag
+  - hash:
+      serializedVersion: 2
+      Hash: 01d8cd3f842b55d7523264420c975f64
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: GameObjectObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 28afbac3be86621cd496d2a68f2a55cb
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: TransformPositionDifferenceRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 3933cbb0efbb9fb1f852dc891eeebcd0
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors
+    className: GrabInteractorConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors.ComponentTags
+    className: StopActionTag
+  - hash:
+      serializedVersion: 2
+      Hash: 12149e9151ce0fb619b9197a3b6ac5bd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToVector3
+  - hash:
+      serializedVersion: 2
+      Hash: 8f75a535771d9e52238eb2d9199db10a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation
+    className: GameObjectCloner
+  - hash:
+      serializedVersion: 2
+      Hash: 9d566dd2f57dc023a0af26bcb4d76dee
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AllRule
+  - hash:
+      serializedVersion: 2
+      Hash: 242cceacec2e49c4d8109fd848076d17
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast
+    className: FixedLineCast
+  - hash:
+      serializedVersion: 2
+      Hash: e90daabce256e21953534ec5ca23a970
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Pointer.Operation.Mutation
+    className: PointerElementPropertyMutator
+  - hash:
+      serializedVersion: 2
+      Hash: 671820220a850a9c744c937ee54460f8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Mutation
+    className: RigidbodyPropertyMutator
+  - hash:
+      serializedVersion: 2
+      Hash: 1387325b4ca93fc8174d9b3339f122c7
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: Vector3Multiplier
+  - hash:
+      serializedVersion: 2
+      Hash: c549f6d02b2f5176f68243fef11977cf
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast
+    className: PhysicsCast
+  - hash:
+      serializedVersion: 2
+      Hash: 310c71ac130b413e9b4e3f07f96329ef
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.Stack
+    className: GameObjectObservableStack
+  - hash:
+      serializedVersion: 2
+      Hash: 96f8b61bb66ef7d8e68d1abf17c5295c
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.CameraRig.Operation.Extraction
+    className: PlayAreaDimensionsExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: ea65d0610cc4565a534364d1a0d0000b
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Operation.Extraction
+    className: ObjectDistanceComparatorEventDataExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 976b9ce40ec6f0810dc5c273fd704fe0
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Pointers
+    className: PointerFacadeComponentGameObjectExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: c008f61d8fbb9af0bd4f64390121cc42
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.InteractableSnapZone
+    className: SnapZoneActivator
+  - hash:
+      serializedVersion: 2
+      Hash: f355a5f797948b860e3e37cc53343064
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision
+    className: CollisionIgnorer
+  - hash:
+      serializedVersion: 2
+      Hash: 1d685fe124fe274f4781ca9699192cde
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Modification
+    className: PinchScaler
+  - hash:
+      serializedVersion: 2
+      Hash: d325fe3fa0d3495f10ca82627bab3007
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation.Extraction
+    className: NotifierTargetExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 638523fc4799dbdf41d5c9ac88309852
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Climb
+    className: ClimbInteractableFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 877f46a6c58df10888c0fa1e529b3e00
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables
+    className: InteractableFacadeEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: b9fff100f2faf77595abf03fecd3d627
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Collection.List
+    className: FloatObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 95f941ba13ea65bd9501e69ab91dce4d
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.AxesToVector3
+    className: Vector3Cache
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Samples.Farm.Runtime.dll
+    namespaceName: VRTK.Examples.Tags
+    className: InteractableHacksawTag
+  - hash:
+      serializedVersion: 2
+      Hash: 60cd92e375966f7ef07acd6dabb49fe8
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.InteractorVisibilityModifier
+    className: InteractorVisibilityModifierFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 9df08c8fecbf68cd99b32037ab6352bf
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformScaleExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: b521fd99dd9478100ae35f10432080b1
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.TrackedAlias
+    className: TrackedAliasConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: fd3349896f14ec38c7e493f7aaa12007
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab.Action
+    className: GrabInteractableControlDirectionAction
+  - hash:
+      serializedVersion: 2
+      Hash: 516aa998d41f606b49b7e76a6230ec5d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Cast.Operation.Mutation
+    className: PointsCastPropertyMutator
+  - hash:
+      serializedVersion: 2
+      Hash: ef69d615a8559c4a9828ebeea9b0c037
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation
+    className: Slicer
+  - hash:
+      serializedVersion: 2
+      Hash: d325fe3fa0d3495f10ca82627bab3007
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Operation.Extraction
+    className: PublisherContainerExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 2257c3091856c49ce49e4c28b1e1ae7a
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Follow.Modifier.Property.Rotation
+    className: TransformRotation
+  - hash:
+      serializedVersion: 2
+      Hash: d0e693b7bef84b973254305edb425bbe
+    assemblyName: VRTK.Samples.Farm.Runtime.dll
+    namespaceName: VRTK.Examples.Prefabs.WarehouseDoor
+    className: WarehouseDoor
+  - hash:
+      serializedVersion: 2
+      Hash: 8535188def2f4988c4c42606e4b5b391
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Haptics
+    className: InteractorHapticsFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 70979139f74f1bfb8c55e3432df2486f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.SimulatedCameraRig.Input
+    className: MouseVector2DAction
+  - hash:
+      serializedVersion: 2
+      Hash: 9bbd1c9bea0b4094da57fcebd468e995
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: ActiveCollisionConsumer
+  - hash:
+      serializedVersion: 2
+      Hash: 1f635c94a6776360df680eb95da9cbb8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: Vector2Multiplier
+  - hash:
+      serializedVersion: 2
+      Hash: 7fa31cb47bd639494f81b7024faee1f5
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Touch
+    className: TouchInteractableConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Samples.Farm.Runtime.dll
+    namespaceName: VRTK.Examples.Scarecrow.Tags
+    className: ScarecrowHandTag
+  - hash:
+      serializedVersion: 2
+      Hash: 9821b83e9c3a5ada30b1ab2a0bad01ad
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Movement.Climb
+    className: ClimbFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 4adb8fc20e70a4d01ff0c27aa787b145
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformDataGameObjectExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 59126e8991383767c904b1515947a5bd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: ToggleAction
+  - hash:
+      serializedVersion: 2
+      Hash: 44d8799083265a4f12f67797ce0ceaa8
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action.Collection
+    className: ActionObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: e8e8e3735ec81db5ad5f280406046497
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.UnityXRCameraRig.Input
+    className: UnityButtonAction
+  - hash:
+      serializedVersion: 2
+      Hash: 92215ab982042368416aad9ff838fb07
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.SimulatedCameraRig
+    className: SimulatorFacade
+  - hash:
+      serializedVersion: 2
+      Hash: a620c431ca716d819b0f6f6626066ce8
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.BodyRepresentation
+    className: BodyRepresentationProcessor
+  - hash:
+      serializedVersion: 2
+      Hash: 83c32a27e03e6bbde43e128cbb8f727c
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.UnityXRCameraRig.Input
+    className: UnityAxis2DAction
+  - hash:
+      serializedVersion: 2
+      Hash: 83d4de9d8e84789794082c87a23607de
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.Teleporters
+    className: TeleporterFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 04f3aa96e577dada899f352e116f6ce4
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active
+    className: ActiveCollisionPublisher
+  - hash:
+      serializedVersion: 2
+      Hash: 877f46a6c58df10888c0fa1e529b3e00
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Tracking.Collision.Active.Event.Proxy
+    className: ActiveCollisionConsumerEventProxyEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 3a6e8c96f849f06896019aac2ec2c349
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab
+    className: InteractableGrabStateRegistrar
+  - hash:
+      serializedVersion: 2
+      Hash: add35b416017e9babefc8cb74ad68813
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: Vector2ToFloat
+  - hash:
+      serializedVersion: 2
+      Hash: e6d99d85ce44367d18c797d4e659be2d
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Aggregation
+    className: FloatAdder
+  - hash:
+      serializedVersion: 2
+      Hash: 59126e8991383767c904b1515947a5bd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: BooleanAction
+  - hash:
+      serializedVersion: 2
+      Hash: c91c24b7d3b6b2991572f426b51baff3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Rule
+    className: AnyLayerRule
+  - hash:
+      serializedVersion: 2
+      Hash: 7b3679c8c05cbfbc853339bc6c6ea0e2
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Type.Transformation.Conversion
+    className: FloatToBoolean
+  - hash:
+      serializedVersion: 2
+      Hash: 05a740cc42a3d445908bb1e6cc789b71
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Climb
+    className: ClimbInteractableConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 9df08c8fecbf68cd99b32037ab6352bf
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Extraction
+    className: TransformEulerRotationExtractor
+  - hash:
+      serializedVersion: 2
+      Hash: 652ed49e0703176fd7ce41a01bc79931
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Process.Moment.Collection
+    className: MomentProcessObservableList
+  - hash:
+      serializedVersion: 2
+      Hash: 54730292ba524f4f4d97d2ab52d73a39
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Controllables
+    className: RotationalTransformDrive
+  - hash:
+      serializedVersion: 2
+      Hash: 2152b102d2557c5ee82f82a5b62789fa
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Data.Operation.Mutation
+    className: TransformEulerRotationMutator
+  - hash:
+      serializedVersion: 2
+      Hash: 1a1be53569dc9ca929692bdfe356f0e4
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Locomotion.DestinationLocations
+    className: DestinationLocationConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors.ComponentTags
+    className: StartGrabbingTag
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Samples.Farm.Runtime.dll
+    namespaceName: VRTK.Examples.Scarecrow.Tags
+    className: ScarecrowHeadTag
+  - hash:
+      serializedVersion: 2
+      Hash: ee853cdea551598dcf20ec3e2d9812f3
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Haptics
+    className: TimedHapticProcess
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors.ComponentTags
+    className: StartTouchingTag
+  - hash:
+      serializedVersion: 2
+      Hash: e6d7e1024f99c905e83fe32ce568a476
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.CameraRig.TrackedAlias
+    className: TrackedAliasFacade
+  - hash:
+      serializedVersion: 2
+      Hash: 369ac75bccabec8d42a4da128cec94bd
+    assemblyName: Zinnia.Runtime.dll
+    namespaceName: Zinnia.Action
+    className: StateEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 25d06a1267c2cd9d5eb4d34b597d94a0
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Pointers
+    className: PointerConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: 9805f7a3e230af997c3df7e82956abe0
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactables.Grab.Action
+    className: GrabInteractableScaleAction
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Prefabs.Runtime.dll
+    namespaceName: VRTK.Prefabs.Interactions.Interactors.ComponentTags
+    className: StopTouchingTag
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: VRTK.Samples.Farm.Runtime.dll
+    namespaceName: VRTK.Examples.Tags
+    className: InteractableHammerTag
+  platform: 19
+  scenePathNames:
+  - Assets/VRTK/Samples/Farm/Scenes/ExampleScene.unity
+  - Assets/Scenes/Blackscreen.unity
+  - Assets/Scenes/JumpStart.unity
+  playerPath: C:/Users/Tim/Documents/GitHub/dig4633-fall2019/in-class/wk1/Lab1_TimFarm/Lab1TimFarm.exe

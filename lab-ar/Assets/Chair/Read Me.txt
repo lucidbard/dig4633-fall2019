@@ -1,0 +1,27 @@
+Low poly model of a armchair (old).
+
+Game ready
+PBR texturing
+
+462 triangles for the entire mesh.
+
+Contains 2 elements:
+Body
+Pillow
+
+Textures:
+2048x2048 maps.
+
+Contains sets for default and Unity 5 textures.
+
+4 color schemes included:
+Brown,
+Red,
+White,
+Beige.
+
+You can contact me via:
+oieusouoroger@hotmail.com
+
+
+Roger.
